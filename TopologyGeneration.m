@@ -5,7 +5,7 @@ clear all; close all; clc;
 % If two buses are connected with a transformer but not a transmission link, in this work, we assume that 
 % the two buses are very close to each other, and the distance is set as 0.5km.
 %% load data from xlsx file
-N = 118;                                                                    % change the size for the used IEEE bus file
+N = 118;                                                                   % change the size for the used IEEE bus file
 Line_DATA = xlsread(['IEEE',num2str(N),'.xlsx']);                          % read IEEE bus files                                                                   
 Src_Vertex = Line_DATA(:,4);                                               % source nodes of the links
 Dst_Vertex = Line_DATA(:,14);                                              % destination nodes of the links
@@ -50,7 +50,7 @@ for i=1:L
 end
 for i=1:N
     for j=1:N
-        if G(i,j)==0  
+        if G(i,j)==0
             G(i,j) = inf;                                                  % if there is no link between i and j
         end
     end
