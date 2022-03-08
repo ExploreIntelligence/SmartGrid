@@ -68,7 +68,8 @@ for i=0:1:duplicateNum-1
     G_large(1+N*i:N+N*i,1+N*i:N+N*i) = G;
 end
 % generate links connecting nodes in different topologies with random weight of [10,100] km
-numLinks = 300;
+numLinkperTopo = 10;                                                       % average number of out links for every duplicated topology
+numLinks = numLinkperTopo*duplicateNum;
 linkWeights = randi([10 100],1,numLinks);
 linkIdx = 0;
 while linkIdx<=numLinks
