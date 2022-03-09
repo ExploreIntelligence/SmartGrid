@@ -57,7 +57,7 @@ for i=1:N
     G(i,i)=0;
 end
 %% Combine several topologies together by adding connecting links
-duplicateNum = 10;                                                         % number of connected bus systems
+duplicateNum = 10;                                                         % number of connected networks, can be changed manually
 G_large = zeros(N*duplicateNum,N*duplicateNum);
 for i=1:N*duplicateNum
     for j=1:N*duplicateNum
