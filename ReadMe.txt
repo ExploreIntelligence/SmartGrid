@@ -4,7 +4,7 @@ According to the topology configuration part in Section IV of the paper "Datapla
 If two buses are connected with a transformer but not a transmission link, in this work, we assume that the two buses are very "close" to each other, and the distance is set as 0.5km.
 
 Instructions: 
-1. The .vsd files are the computed Shortest Path Trees (SPT) for each IEEE test power system topology;
+1. The .jpg files show the computed Shortest Path Trees (SPT) for each IEEE test power system topology;
 
 2. The .xlsx files are the source data of each IEEE test power system;
 
