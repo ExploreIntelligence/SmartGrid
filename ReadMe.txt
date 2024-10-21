@@ -15,4 +15,4 @@ Instructions:
 5. The LFA_rLFA.m is used to compute the number of faul links for which the corresponding LFA/rLFA could not be found, as shown in TABLE III of the paper. The floydSPR.m script computes the shortest paths between each pair of node, which is called by LFA_rLFA.m.
 
 CITATION
-T. Duan and V. Dinavahi, "Dataplane based fast failover in SDN-enabled wide area measurement system of smart grid," IEEE Trans. Ind. Informat., early-access, Nov. 2022.
+T. Duan and V. Dinavahi, "Dataplane based fast failover in SDN-enabled wide area measurement system of smart grid," IEEE Trans. Ind. Informat., vol. 19, no. 7, pp. 8148-8158, 2023.
